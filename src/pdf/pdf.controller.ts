@@ -12,7 +12,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { PdfService } from './pdf.service';
 import { diskStorage } from 'multer';
 import { join } from 'path';
-import { Express } from 'express';
+import { Express } from 'express'
 
 @Controller('pdf')
 export class PdfController {
